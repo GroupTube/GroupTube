@@ -1,0 +1,20 @@
+//Design for the text Login
+h1 {
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+}
+
+//Design for the text username and password and search bars
+p {
+text-align: center;
+}
+
+//Design for the login button
+.btn{
+
+    bottom: 300px;
+    right: 400px; 
+    font-size: 30px;
+
+}
