@@ -31,14 +31,15 @@
 				$vids[] = array("vidTitle"=>$row["vidTitle"],"vidTitle"=>$row["vidRef"],"vidTitle"=>$row["vidDesc"]);
 			}
 		
-		echo	$vids[];
+		echo	$vids;
 		
 	}
 	
 	else
 	{
 		
-		echo	"no result"
+
+		echo	"no result";
 		
 	}
 	

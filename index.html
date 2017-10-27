@@ -9,7 +9,17 @@
 
 
 <h1><img src="loginimage.jpg" alt="User Login" style="width:100px;height:100px;"></h1>
-<button class="btn login">Login</button>
+
+<input id="btn login" button class = "btn login" type="button" value="Login" 
+       onclick="return btntest_onclick()" />
+
+<script language="javascript" type="text/javascript">
+
+function btntest_onclick() 
+{
+    window.location = "login.html";
+}
+</script>
 
 <h2>GroupTube</h2>
 
