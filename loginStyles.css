@@ -12,11 +12,27 @@ h1 {
     color: #f7fff6;
 }
 
-p {
+#login {
     font-family: Comic Sans MS;
     font-size: 200%;
     text-align: center;
     color: #f7fff6;
+}
+
+input[type=password] {
+    width: 30%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px #93b48b;
+    border-radius: 4px;
+    border-style: double;
+
+}
+
+input[type=password]:focus {
+    border: 8px solid #93b48b;
+    border-style: inset;
 }
 
 input[type=text] {
@@ -61,27 +77,42 @@ input[type=text]:focus {
 }
 
 a:link {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
     color: #f7fff6; 
     background-color: transparent; 
     text-decoration: none;
+    display: block;
+    
 }
 
 a:visited {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;    
     color: #f7fff6;
     background-color: transparent;
     text-decoration: none;
+    display: block;
 }
 
 a:hover {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
     color: green;
     background-color: transparent;
     text-decoration: underline;
+    display: block;
 }
 
 a:active {
     color: #f7fff6;
+    text-align: center;
     background-color: transparent;
     text-decoration: underline;
+    display: block;
 }
 </style>
 

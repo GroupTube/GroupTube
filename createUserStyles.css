@@ -13,7 +13,7 @@ h1 {
     color: #f7fff6;
 }
 
-p {
+#login {
     font-family: Comic Sans MS;
     font-size: 200%;
     text-align: center;
@@ -28,13 +28,30 @@ input[type=text] {
     border: 8px #93b48b;
     border-radius: 4px;
     border-style: double;
-    
+
 }
 
 input[type=text]:focus {
     border: 8px solid #93b48b;
     border-style: inset;
 }
+
+input[type=password] {
+    width: 30%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px #93b48b;
+    border-radius: 4px;
+    border-style: double;
+
+}
+
+input[type=password]:focus {
+    border: 8px solid #93b48b;
+    border-style: inset;
+}
+
 
 .btn{
 

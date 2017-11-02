@@ -1,0 +1,52 @@
+html, body {
+    margin:0;
+    padding:0;
+    background-color: #8491a3;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    font-size: 350%;
+    text-align: center;
+    color: #f7fff6;
+}
+
+a:link {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
+    color: #f7fff6;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+
+}
+
+a:visited {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
+    color: #f7fff6;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+    display: block;
+}
+
+a:active {
+    color: #f7fff6;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: underline;
+    display: block;
+}
+</style>

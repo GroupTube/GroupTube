@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GroupTube</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<h1> <a href="index.html">
+  <img src="loginimage.jpg" alt="GroupTube Icon" id = "icon">
+</a>
+GroupTube
+</h1>
+
+<div class = "topnav" id="myTopnav">
+	<a href="index.html">Home</a>
+	<a href="searchResults.html">Search</a>
+	<a href="Userpage.php">My Profile</a>
+
+</div>
+
+<!-- Form needs to link to an action page
+ -->
+<form>
+	<br>
+	<input type="text" name ="searchResult"> <input type="submit" value= "Search"<br>
+</form>
+
+<!-- <a href="http://www.youtube.com">
+  <img src="img/youtube.jpg" alt="GroupTube Icon" id = "icon">
+</a> -->
+
+
+<div id="container">
+	<!-- $row[vidTitle]  will go in p to point to video in database -->
+	<h2 id = "title"> $row[vidTitle] Video Title</h2>
+		
+	<video width="700" height="400" controls>
+		<source src="test.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+	</video>
+		
+	<p id="desc">$row[vidDesc] This will be the video description</p>
+	
+</div>
+
+</body>
+</html>
