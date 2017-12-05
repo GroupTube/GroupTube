@@ -1,0 +1,153 @@
+html, body {
+    margin:0;
+    padding:0;
+    background-color: #8491a3;
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
+    color: #f7fff6;
+}
+
+#top-left img {
+    border-radius: 50%;
+
+}
+
+#top-right img {
+    border-radius: 50%;
+
+}
+
+#top-right text{
+    color: #f7fff6;
+    font-family: Comic Sans MS;
+
+}
+
+
+#top-right {
+	float: right;
+	color: #f7fff6;
+    	font-family: Comic Sans MS;
+
+}
+
+#top-left {
+	float: left;
+	color: #f7fff6;
+    	font-family: Comic Sans MS;
+}
+
+h2 {
+    font-family: Comic Sans MS;
+    font-size: 350%;
+    text-align: center;
+    color: #f7fff6;
+
+}
+
+
+#upload {
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    text-align: center;
+    color: #f7fff6;
+}
+
+
+input[type=text] {
+    width: 30%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px #93b48b;
+    border-radius: 4px;
+    border-style: double;
+
+}
+
+input[type=text]:focus {
+    border: 8px solid #93b48b;
+    border-style: inset;
+}
+
+.formfield * {
+  vertical-align: top;
+}
+
+label{
+	font-family: Comic Sans MS;
+    font-size: 100%;
+    text-align: center;
+    color: #f7fff6;
+	font-weight: bold;
+}
+
+
+
+#Description {
+	width: 50%;
+	height: 200px;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 8px #93b48b;
+    border-radius: 4px;
+    border-style: double;
+}
+
+#Description:focus {
+	border: 8px solid #93b48b;
+	border-style: inset;
+
+}
+
+
+input[type=file] {
+    display: none;
+}
+
+.custom-file-upload {
+	postion: relative;
+    background-color: #3e8e41;
+    font-size: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    padding: 0px 10px;
+    color: #f7fff6;
+    border: 2px solid #bcebcb;
+    border-radius: 8px;
+    display: block;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.btn{
+
+    postion: relative;
+    background-color: #3e8e41;
+    font-size: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    padding: 0px 10px;
+    color: #f7fff6;
+    border: 2px solid #bcebcb;
+    border-radius: 8px;
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+	font-weight: bold;
+
+}
+
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

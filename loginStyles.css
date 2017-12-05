@@ -43,7 +43,7 @@ input[type=text] {
     border: 8px #93b48b;
     border-radius: 4px;
     border-style: double;
-    
+
 }
 
 input[type=text]:focus {
@@ -80,17 +80,17 @@ a:link {
     font-family: Comic Sans MS;
     font-size: 200%;
     text-align: center;
-    color: #f7fff6; 
-    background-color: transparent; 
+    color: #f7fff6;
+    background-color: transparent;
     text-decoration: none;
     display: block;
-    
+
 }
 
 a:visited {
     font-family: Comic Sans MS;
     font-size: 200%;
-    text-align: center;    
+    text-align: center;
     color: #f7fff6;
     background-color: transparent;
     text-decoration: none;
@@ -115,4 +115,3 @@ a:active {
     display: block;
 }
 </style>
-

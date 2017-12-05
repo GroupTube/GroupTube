@@ -1,867 +1,3 @@
-cd /home
-ls
-exit
-cd /var/www
-ls
-cd html
-ls
-nano index.html
-ls
-cd ..
-ls
-cd /home
-ls
-cd pi
-ls
-cd Documents
-ls
-cd ..
-cd dillon
-ls
-cd Documents
-ls
-cd /home
-cd tom
-ls
-cd Documents
-ls
-cd ..
-cd /home/caly
-cd /home/clay
-cd Documents
-cd /home/pi/Documents
-ls
-cd Practice HTML
-sudo cd Practice HTML
-exit
-cd /home/pi/Documetns
-cd /home/pi/Documents
-ls
-cd Practice%HTML
-cd Practice\ HTML
-ls
-nano index.html
-cp index.html /var/www/html
-sudo cp index.html /var/www/html
-sudo -i
-exit
-cd /var/www/html
-nano index.html
-sudo nano index.html
-exit
-cd /var/www/html
-ls
-nano index.html
-sudo nano index.html
-exit
-curl -sSL https://get.docker.com | sh
-sudo usermod -aG docker sky
-sudo usermod -aG docker tom
-sudo usermod -aG docker dillon
-sudo usermod -aG docker clay
-sudo usermod -aG docker joseph
-sudo usermod -aG docker pi
-sudo apt-get update
-sudo apt-get install apt-transport-https                        ca-certificates                        software-properties-common
-curl -fsSL https://yum.dockerproject.org/gpg | sudo apt-key add -
-apt-key fingerprint 58118E89F3A912897C070ADBF76221572C52609D
-sudo add-apt-repository        "deb https://apt.dockerproject.org/repo/ \
-       raspbian-$(lsb_release -cs) \
-       main"
-sudo vim /etc/apt/sources.list
-sudo nano /etc/apt/sources.list
-uname -a
-cat /etc/issue
-cat /etc/Raspbian-release
-lsb_release –a
-sudo nano /etc/apt/sources.list
-sudo apt-get update
-sudo nano /etc/apt/sources.list
-sudo apt-get update
-sudo apt-get -y install docker-engine
-docker run hello-world
-sudo docker run hello-world
-exit
-sudo docker run hello-world
-sudo reboot
-docker run hello
-docker run
-docker
-docker ps
-sudo nano /etc/apt/sources.list
-
-sudo nano /etc/apt/sources.list
-sudo apt-get update
-sudo rebbot
-sudo reboot
-sudo apt-get update
-sudo nano /etc/apt/sources.list
-docker run hello-world
-sudo docker run hello-world
-ls
-cd /etc
-cd apt
-ls
-docker
-docker create
-exit
-cd /home
-cd /pi
-ls
-cd pi
-ls
-cd Downloads
-ls
-cd ..
-cd Documents
-ls
-cd /home
-cd /dillion
-cd /dillon
-cd dillon
-ls
-cd downloads
-cd Downloads
-ls
-cd ..
-ls Documents
-cd Documetns
-cd Documents
-ls
-ls /home/pi/Documents
-sudo apt-get install htop
-htop
-exit
-htop
-exit
-sudo apt-get install php5 libapache2-mod-php5 -y
-sudo leafpad index.php
-sudo nano index.php
-sudo rm index.html
-sudo service apache2 restart
-<?php phpinfo(); ?>
-sudo apt-get install mysql-server php5-mysql -y
-ls
-cd ..
-ls
-cd pi
-ls
-lib.deb
-sh lib.deb
-sudo dpkg -i lib.deb
-sudo apt-get install -f
-sudo apt-get install mysql-server php5-mysql -y
-ls
-rm lib.deb
-ls
-sudo apt-get update
-sudo apt-get upgrade
-sudo reboot
-sudo halt
-hitop
-hi top
-sudo shutdown
-exit
-ls
-cd /
-ls
-cd var
-ls
-cd www
-ls
-rm html
-exit
-$ sudo docker info
-$ sky -a
-$ docker run hello-world
-$ sudo apt-get remove docker docker-engine docker.io
-$ sudo apt-get update
-docker run hello-world
-sudo apt-get update
-sudo apt-get remove docker docker-engine docker.io
-sudo apt-get install      apt-transport-https      ca-certificates      curl      gnupg2      software-properties-common
-curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID")/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
-sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
-   $(lsb_release -cs) \
-   stable"
-echo "deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
-     $(lsb_release -cs) stable" |     sudo tee /etc/apt/sources.list.d/docker.list
-sudo apt-get update
-sudo apt-get install docker-ce
-sudo docker run armhf/hello-world
-sudo docker run hello-world
-sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
-   $(lsb_release -cs) \
-   stable"
-sudo apt-get install \apt=transport-https \ca-certificates \curl \software-properties-common
-sudo apt-get install \apt-transport-https \ca-certificates \curl \software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository \ "deb [arch==amd64] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) \ stable"
-sudo add-apt-repository \ "deb [arch==amd64] https://download.docker.com/linux/ ubuntu \ $(lsb_release -cs) \ stable"
-sudo add-apt-repository \"deb [arch==amd64] https://download.docker.com/linux/ ubuntu \ $(lsb_release -cs) \ stable"
-
-sudo add-apt-repository \"deb [arch==amd64] https://download.docker.com/linux/ ubuntu \ $(lsb_release -cs) \ stable"
-sudo apt-get update
-sudo apt-get install docker-ce
-sudo docker info
-ls
-sudo dpkg -i dock.deb
-rm dock.deb
-ls
-sudo dpkg -i dock.deb
-sudo docker run hello-world
-standard_init_linux.go:178: exec user process caused "exec form            at error"
-curl -sSL https://get.docker.com | sh
-docker --version
-docker run hello-world
-docker images
-sudo docker run -i -t ubuntu /bin/bash
-docker ps
-docker inspect -f
-docker ps
-CONTAINER ID
-docker CONTAINER ID
-docker inspect -f   '{{.Id}}' a74f192c4405
-exit
-ls
-rm dock.deb
-ls
-cp login.html /var/www/
-sudo cp login.html /var/www/
-ls var/www/
-ls /var/www/
-cd /var/www/ 
-rm html
-html
-cs html
-cd html
-ls
-cd ..
-cp login.html /html
-sudo cp login.html /html
-cd ..
-cd /home
-cd /sky
-cd sky
-sudo cp loginimage.jpeg /var/www/html
-sudo cp loginimage.jpg /var/www/html
-sudo cp loginstyles.css /var/www/html
-cd /var/www/html
-ls
-rm index.html
-sudo rm index.html
-ls
-..
-cd ..
-ls
-sudo cp login.html /html
-ls
-cd /html
-cd html
-ls
-cd ..
-sudo cp login.html html
-ls
-cd html
-ls
-cd ..
-sudo rm login.html
-ls
-cd /
-ls
-sudo rm html
-ls
-ls /home/sky
-cd /var/www/html
-sudo rm login.html
-ls
-sudo rm loginstyles.css
-ls
-cd home/sky
-cd home
-..
-cd /home/sky
-ls
-cp homepage.html /var/www/html
-sudo cp homepage.html /var/www/html
-sudo cp homepagestyles.css /var/www/html
-sudo rm homepage.html
-sudo rm homepagestyles.css
-ls
-cd /var/www/html
-ls
-cd /home/sky
-ls
-docker ps
-docker ps CONTAINER ID
-docker ps
-ls
-cd /home/sky/files
-docker cp createuser.html a74f192c4405:/createuser.html
-docker cp grouptube.sql  a74f192c4405:/grouptube.sql
-docker cp loginstyles.css  a74f192c4405:/loginstyles.css
-docker cp createuserstyles.css  a74f192c4405:/createuserstyles.css
-
-docker cp login.html  a74f192c4405:/login.html
-docker cp grouptubesearchproc.php  a74f192c4405:/grouptubesearchproc.php
-docker cp homepagestyles.css  a74f192c4405:/homepagestyles.css
-docker cp loginimage.jpg  a74f192c4405:/loginimage.jpg
-docker exec -it a74f192c4405 /bin/bash
-run a74f192c4405
-docker run a74f192c4405
-ocker run -ti ubuntu /bin/sh
-docker run -ti ubuntu /bin/sh
-docker ps
-docker images
-docker run -i -t 6d45af92f09a  /bin/bash
-docker ps
-docker ps -a
-docker start 30b20e5fal9e
-docker start a74f192c4405
-docker start a74f192c4405 ubuntu
-docker start a74f192c4405 
-docker attach  a74f192c4405 
-docker start a74f192c4405 
-docker attach  a74f192c4405 
-docker start a74f192c4405 
-docker attach  a74f192c4405 
-exit
-ls
-docker run -dit --web_server  apache-web -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker run -dit --name  apache-webserver -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker exec -it apache-webserver /bin/bash
-docker run -d -p 80:80 -t httpd:2.4
-sudo service apache2 stop
-sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
-sudo apt-get autoremove
-which apache2 
-sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2
-which apache2
-rm /usr/sbin/apache2
-sudo rm /usr/sbin/apache2
-password
-which apache2
-docker run -d -p 80:80 -t httpd:2.4
-exit
-docker exec -it apache-webserver /bin/bash
-cd /var/www/html
-ls
-cd ..
-ls
-cd ..
-ls
-docker run -p 80:80 -dit --name web-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker images -a
-docker rmi Image 3791747c8c0f
-docker rmi 3791747c8c0f  3791747c8c0f
-docker rmi bf5a9bd3ddf0
-docker rm  CONTAINER bf5a9bd3ddf0
-docker stop  bf5a9bd3ddf0
-docker run -p 80:80 -dit --name web-server  -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker run --help
-docker rm  <CONTAINER ID> bf5a9bd3ddf0
-docker rm  bf5a9bd3ddf0
-docker run -p 80:80 -dit --name web-server  -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker rm d85c5cb1301f231618f03951d7c08f17f467a7a10746816bb8e2d242f028b65d
-docker rm <d85c5cb1301f231618f03951d7c08f17f467a7a10746816bb8e2d242f028b65d>
-docker rm d85c5cb1301f231618f03951d7c08f17f467a7a10746816bb8e2d242f028b65d
-docker run -p 80:80 -dit --name web-server  -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker run -p 81:81 -dit --name web-server  -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker run -p 81:81 -dit --name apache-server  -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker ps
-docker rm dle66dd5b3f9
-docker rm d62a5ab5a516
-docker stop  d62a5ab5a516
-docker rm  d62a5ab5a516
-docker ps
-docker stop dle66dd5b3f9
-docker stop jolly_franklin
-docker rm  jolly_franklin
-docker ps
-docker run -p 80:80 -dit --name web-server -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker run -p 80:80 -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker ps
-docker run -p 80:80 -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs: var/www/html/homepage.html  httpd:2.4
-docker run -p 80:80 -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs: /var/www/html/homepage.html  httpd:2.4
-docker ps
-docker rm apache-server
-docker stoop apache-server
-docker stop apache-server
-docker rm  apache-server
-docker ps
-docker run -dit --name web-server  -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker run -dit --name apache-server  -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker exec -it apache-server /bin/bash
-cd wwww
-cd www
-cd html
-ls
-docker ps
-docker stop apache-server
-docker rm apache-server
-docker ps
-docker run -d -p 80:80 --name apache-server -v /var/wwww/html:/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker run apache-server
-docker start apache-server
-docker stop apache-server
-docker exec -it apache-server /bin/bash
-docker start apache-server
-docker exec -it apache-server /bin/bash
-cp homepage.html /usr/local/apache2/htdocs
-cp homepage.html /usr/local/apache2/htdocs/
-docker exec -it apache-server /bin/bash
-docker ps
-ls
-docker stop apache-server
-docker rm apache-server
-docker run -d -p 80:80 --name apache-server -v /var/wwww/html/:/usr/local/apache2/htdocs/ httpd:2.4
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm  apache-server
-sudo chown -R root:root /var/www/html
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/ httpd:2.4
-cat homepage.html
-ls
-nano homepage.html
-sudo nano homepage.html
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/ httpd:2.4
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html/homepage.html:/usr/local/apache2/htdocs/ httpd:2.4
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/ httpd:2.4
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html/:/usr/local/apache2/htdocs/ httpd:2.4
-nano homepage.html
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm apache-server
-docker ps
-docker run -d -p 80:80 --name apache-server -v /var/www/html/:/usr/local/apache2/htdocs/homepage.html httpd:2.4
-docker exec -it apache-server /bin/bash
-ls
-cd ..
-ls
-cd home
-ls
-cd sky
-ls
-cp loginimage.jpg /var/wwww/html
-sudo cp loginimage.jpg /var/wwww/html
-cd /var/www/html
-ls
-sudo cp loginimage.jpg /var/wwww/html/
-sudo cp loginimage.jpg /var/wwww/html
-cd ..
-cd home
-cd sky
-cp loginimage.jpg /var/www/html/
-sudo cp loginimage.jpg /var/www/html/
-cd /var/www/
-ls
-cd html
-ls
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html/:/usr/local/apache2/htdocs/homepage.html httpd:2.4
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker exec -it apache-server /bin/bash
-docker exec -it apache-server bash
-docker attach
-docker attach apache-server
-mv homepage.html index.html
-sudo mv homepage.html index.html
-ls
-docker rm apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html/:/usr/local/apache2/htdocs/index.html  httpd:2.4
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/index.html  httpd:2.4
-docker exec -it apache-server bash
-docker start apache-server
-docker rm apache-server
-mv index.html homepage.html
-sudo mv index.html homepage.html
-ls
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/homepage.html  httpd:2.4
-docker exec -it apache-server bash/bin
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/ httpd:2.4
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm  apache-server
-docker run -d -p 80:80 --name apache-server -v /var/www/html:/usr/local/apache2/htdocs/homepage.html httpd:2.4
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm apache-server
-mkdir docker-example
-sudo mkdir docker-example
-cd docker-example
-gedit Dockerfile
-nano Dockerfile
-sudo docker build -t=docker-example
-sudo rm docker-example
-sudo rm Dockerfile
-ls
-cd ..
-rm docker-example
-rmdir docker-example
-sudo rmdir docker-example
-ls
-cd ..
-cd home
-cd sky
-ls
-duo mkdir docker-example
-sudo mkdir docker-example
-cd docker-example
-nano Dockerfile
-sudo docker build -t=docker-example .
-sudo docker build -t=docker-example
-sudo docker build -t=docker-example /
-ls
-nano Dockerfile
-sudo nano Dockerfile
-sudo docker build -t=docker-example .
-xit
-cd ..
-rmdir docker-example
-cd docker-example
-rm Dockerfile
-sudo rm Dockerfile
-cd ..
-sudo rmdir docker-example
-docker ps
-nano WebFile
-ls
-sudo docker build –t=”mywebserver”
-sudo docker build –t=docker-example
-sudo docker build –t="docker-example"
-sudo docker build –t=WebFile
-sudo docker build –t="WebFile"
-sudo docker build –t=”mywebserver”
-sudo rm WebFile
-nano WebServer
-cat WebServer
-ls
-docker build -t myimage:latest .
-cd Dockerfile
-cd home
-cd /home
-ls
-cd sky
-ls
-mkdir Dockerfile
-cp WebServer Dockerfile
-cd Dockerfile
-ls
-cd ..
-sudo rm WebServer
-ls
-docker build -t myimage:latest .
-sudo docker build –t=”mywebserver” . 
-sudo docker build –t mywebserver . 
-docker build -t myimage:latest .
-cd Dockerfile
-ls
-cat WebServer
-docker build -t myimage:latest .
-unable to prepare context: unable to evaluate symlinks in Dockerfile path: lstat /home/sky/Dockerfile/Dockerfile: no such file or directory
-docker build -t myimage:latest .
-ls
-cd ..
-ls
-docker build -t myimage:latest .
-cd Dockerfile
-ls
-nano Dockerfile
-docker build -t myimage:latest .
-sudo Docker images
-sudo docker images
-sudo docker run –d –p 80:80 myimage:latest
-sudo docker run –d –p 80:80 mywebserver .
-docker build -t mywebserver .
-sudo docker run –d –p 80:80 mywebserver
-sudo docker images
-sudo docker run -d -p 80:80 e7419e594801
-docker stop  e7419e594801
-docker rm  e7419e594801
-docker ps
-ls
-sudo rm Dockerfile
-sudo rm WebServer
-ls
-cd ..
-rmdir Dockerfile
-ls
-mkdir apache
-cd apache
-vi Dockerfile
-nano Dockerfile
-cat Dockerfile
-sudo docker build -t apachewebserver .
-nano Dockerfile
-sudo docker build -t apachewebserver .
-cat Dockerfile
-Error response from daemon: Dockerfile parse error line 18: Unknown instruction: $AP      ACHE_RUN_DIR
-nano Dockerfile
-sudo docker build -t apachewebserver .
-nano Dockerfile
-sudo docker build -t apachewebserver .
-mkdir --help
-docker ps
-nano Dockerfile
-sudo docker build -t apachewebserver .
-sudo docker images
-sudo docker run -d -P apachewebserver
-docker ps
-docker rename loving_ramanujan apacheWebServer
-docker ps
-docker exec -it apache-server /bin/bash
-docker exec -it apacheWebServer /bin/bash
-cd ..
-cd home
-ls
-cd /var/www/html
-ls
-sudo docker run -v /home/sky/var/www/html:/data/ \--name apacheServer apachewebserver
-cd ..
-ls
-sudo docker run -v /var/www/html:/data/ \--name apacheServer apachewebserver
-docker stop apacheServer
-docker rm apacheServer
-sudo docker run -v /var/www/html:/data/ \--name apacheServer apachewebserver
-sudo docker run -v /var/www/html \--name apacheserver apachewebserver
-sudo docker run -v /var/www/html/ \--name apacheserver apachewebserver
-docker stop apacheserver
-docker rm apacheserver
-sudo docker run -v /var/www/html/ \--name apacheserver apachewebserver
-docker stop apacheserver
-docker rm apacheserver
-docker ps
-apache rm apacheWebServer
-docker rm apacheWebServer
-docker stop apacheWebServer
-docker rm apacheWebServer
-docker stop apacheServer
-docker rm apacheServer
-docker ps
-sudo docker run -v --name apacheServer apachewebserver
-sudo docker run -v --name apacheserver apachewebserver
-sudo docker run -v  apacheserver apachewebserver
-sudo docker run apacheserver apachewebserver
-docker image
-docker inspect
-sudo docker images
-sudo docker run --name  apacheserver apachewebserver
-sudo docker -v /var/www/html/ \ --name apacheServer apachewebserver
-sudo docker run  -v /var/www/html/ \ --name apacheServer apachewebserver
-sudo docker run  -v /var/www/html \ --name apacheServer apachewebserver
-sudo docker run  -v /var/www/html/ \--name apacheServer apachewebserver
-sudo docker run  -v /var/www/html/ \--name apacheserver apachewebserver
-docker stop apacheserver
-docker rm apacheserver
-sudo docker run  -v /var/www/html/ \--name apacheserver apachewebserver
-docker ps
-sudo docker port 7a3fca9694d6 800.0.0.0:49160
-docker run -d -p 80:80 apacheserver
-docker run -d -p 80:80 7a3fca9694d6
-docker exec -it apacheserver /bin/bash
-docker pull debian:jessie
-docker images
-docker run -ti fbb1d8af7ad7
-docker commit 040bf8e08425
-docker commit fbb1d8af7ad7 
-docker ps
-docker stop apacheserver
-docker rm apacheserver
-exit
-docker run -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker run -d -p 80:80 -t httpd:2.4
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm apache-server
-docker ps
-docker stop jovial_menisky
-docker stop da8ebb26aaf2
-docker rm  da8ebb26aaf2
-docker ps
-docker run -p 80:80 -dit --name apache-server  -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker exec -it apache-server /bin/bash
-cd var
-cd /var/www/html
-ls
-cat homepage.html
-cd /home
-ls
-cd sky
-ls
-cat index.html
-nano index.html
-cat index.html
-ls
-docker exec -it apache-server /bin/bash
-exit
-docker stop apache-server
-docker rm apache-server
-ls
-/home
-home
-/usr/home
-ls
-cd ..
-ls
-cd sky
-sudo cp index.html /home/pi
-sudo cp createuser.html /home/pi
-sudo cp grouptube.sql /home/pi
-sudo cp login.html /home/pi
-sudo cp createuserstyles.css /home/pi
-sudo cp homepagestyles.css /home/pi
-sudo cp loginimage.jpg /home/pi
-sudo cp loginstyles.css /home/pi
-cd ..
-ls pi
-exit
-dockerps
-docker ps
-docker run -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker run -p 80:80 -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker stop apache-server
-docker rm apache-server
-ls
-docker run -p 80:80 -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-cd /home
-ls
-exit
-docker ps
-docker stop apache-server
-docker rm apache-server
-docker ps
-docker run -d -p 80:80 --name apache-server -v "$PWD":/var/www/html php:7.0-apache
-docker ps
-docker exec -it apache-server /bin/bash
-docker ps
-ls
-docker cp apache-server:/SearchingVideosGT.php SearchingVideosGT.php
-docker cp SearchingVideosGT.php apache-server:/SearchingVideosGT.php
-docker exec -it apache-server /bin/bash
-exit
-sude apt-get git-all
-sudo apt-get git-all
-sudo apt-get install git-all
-ls
-git config --global user.name "Joseph Ridgway"
-git config --global user.email Joseph.Ridgway@gmail.com
-git config --list
-git config user.name
-mkdir
-mkdir --help
-clear
-mkdir GroupTube
-ls
-mv --help
-clear
-ls
-pwd
-mv sky/createuser.html sky/GroupTube
-claer
-clear
-ls
-mv *.sql *.html *.jpg *.php *.css GroupTube
-ls
-cd GroupTube
-git iniy
-git init
-ls
-git add *.c
-git add LICENSE
-git commit -m 'initial project version'
-clear
-ls
-git add *.css *.html *.php *.sql
-git commit -m 'initial project version'
-exit
-docker ps
-exit
-ls
-cd GroupTube
-ls
-sudo rm homepagestyles.css
-ls
-sudo rm index.html
-ls
-sudo rm SearchingVideosGT.php
-ls
-sudo rm grouptubesearchproc.php
-ls
-docker exec -it apache-server bin/bash
-docker exec -it apache-server /bin/bash
-exit
-docker exec -it apache-server /bin/bash
-exit
-ls
-cd GroupTube
-ls
-exec exec -it apache-server /bin/bash/
-docker  exec -it apache-server /bin/bash/
-docker  exec -it apache-server /bin/bash
-ls
-exit
-docker ps
-docker stop apache-server
-docker rm apache-server
-docker ps
-docker run -d -p 80:80 --name apache-server -v "$PWD":/var/www/html php:7.0-apache
-docker ps
-docker exec -it apache-server /bin/bash
-exit
-docker ps
-docker stop apache-server
-docker rm apache-server
-docker run -dit --name apache-server -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
-docker ps
-docker exec -it apache-server /bin/bash
-docker stop apache-server
-docker rm apache-server
-ls
-rmdir GroupTube
-cd GroupTube
-ls
-rm -rf GroupTube
-cd ..
-rm -rf GroupTube
-ls
-docker run -d -p 80:80 --name apache-server -v "$PWD":/var/www/html php:7.0-apache
-docker exec -it apache-server /bin/bash
-cat index.html
-nano index.html
-sudo nano index.html
-docker exec -it apache-server /bin/bash
-cd /var/www/html
-ls
-nano index.html
-sudo nano index.html
-cat index.html
-rm index.html
-sudo rm index.html
-ls
-cd /Users/home/sky
-cd /users/home/sky
-cd /home/sky/
-ls
-sudo cp index.html /var/www/html
-cd var/www/html
 cd var/www/html/
 cd /var/www/html/
 ls
@@ -1691,4 +827,1174 @@ sudo nano CreateUser.php
 ls
 sudo nano login.php
 sudo nano CreateUser.php
+exit
+ls
+sudo nano login.php
+sudo nano Userpage.php
+sudo nano CreateUser.php
+sudo nano login.php
+sudo nano CreateUser.php
+sudo nano login.php
+sudo nano CreateUser.php
+sudo nano login.php
+sudo nano CreateUser.php
+docker exec -it mysql mysql -u root -p
+ls
+sudo nano CreateUser.php
+ls
+sudo nano CreateUser.php
+docker exec -it mysql mysql -u root -p
+sudo nano CreateUser.php
+ls
+sudo nano CreateUser.php
+sudo nano searchingVideos.php
+ls
+sudo nano searchingVideos.php
+exit
+git commit
+git add *
+git add
+git status
+git add *.file
+git all *
+clear
+git add .
+git status
+clear
+git commit
+clear
+github push
+git push origin master
+git push origin masteer
+git push origin master
+clear
+ls
+clear
+ls
+exit
+clear
+ls
+pwd
+exit
+clear
+ls
+mv SearchingVideos.php searchingVideos.php
+ls
+clear
+exit
+ls
+exit
+clear
+docker exec -it mysql -u root -p
+docker exec -it mysql mysql -u root -p
+clear
+exit
+ls
+cd /home/media
+cd/media
+cd /media
+clear
+ls
+cd usb
+ls
+exit
+cd media
+cd /media
+cd /usb
+cd usb
+clear
+ls
+pwd
+exit
+cd /media
+cd usb
+cp Clay1.mp4 /home/sky
+clear
+cd ..
+cd /hone/sky
+cd /home
+cd /sky
+ls
+cd sky
+cd ..
+cd pi
+ls
+cd ..
+cd sky
+clear
+ls
+clear
+exit
+ls
+cd media/usb
+cd media/usb/
+cd /media/usb
+ls
+exit
+ls
+sudo nano ServeVideos.php
+sudo nano searchingVideos.php
+sudo nano ServeVideos.php
+cd /home/
+ls
+cd /home/sky/
+docker run  --mount type=bind,source=/media/usb/,target=/home/sky -it apache-server
+docker ps
+docker run  --mount type=bind,source="$(pwd)"/media/usb/,target=/home/sky -it <apache-server>
+docker run  --mount type=bind,source=/media/usb/,target=/home/sky -it <apache-server>
+docker run  --mount type=bind,source=/media/usb/,target=/home/sky -it apache-server
+docker run  --mount type=bind,source="$(pwd)"/data,target=/home/data -it apache-server
+docker exec -it /bin/bash
+docker exec -it /bin/bash/
+docker exec -it apache-server /bin/bash
+docker ps
+docker run --name=apache-server2 -d -v ~/media/usb/:/var/www/usb -p 5000:80 php-apache-sqli
+docker ps
+docker exec -it apache-server2 /bin/bash/
+docker exec -it apache-server2 /bin/bash
+docker stop apache-server2
+docker rm apache-server2
+docker ps
+docker run --name=apache-server2 -d -v /media/usb/:/var/www/usb -p 5000:80 php-apache-sqli
+docker exec -it apache-server2 /bin/bash
+docker ps
+docker stop apache-server
+docker start apache-server
+docker rm apache-server2
+docker stop  apache-server2
+docker rm apache-server2
+docker run --name=apache-server -d -v /media/usb/:/var/www/usb -p 5000:80 
+docker ps
+docker stop apache-server
+docker commit d7649bee92de apache-server2
+docker run -ti  -v /media/usb/:/var/www/html/ apache-server2 /bin/bash
+cd /media/usb
+ls
+sudo nano cat
+ls
+docker exec -it apache-server2 /bin/bash
+docker exec -it apache-server2 /bin/bash/
+docker ps
+docker ps -a
+docker start apache-server2
+docker run -ti  -v /media/usb/:/var/www/html/ apache-server2 /bin/bash
+rm cat
+sudo rm cat
+ls
+docker ps
+docker ps -a
+docker images
+docker run -dit --name apache-server -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/html apache-server2
+docker ps
+docker ps -a
+docker run -dit --name apache-server2 -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/html apache-server2
+docker run -dit --name apache-server2 -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ apache-server2
+docker ps-a
+docker ps
+docker exec -it apache-server2 /bin/bash
+docker
+docker ps
+docker exec -it apache-server2 /bin/bash
+docker run -dit --name apache-webserver -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ apache-php-mysqli
+docker images
+docker run -dit --name apache-webserver -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ php-apache-mysqli
+docker run -dit --name apache-webserver -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ php-apache-sqli
+docker ps
+docker stop apache-server2
+docker run -dit --name apache-webserver -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ php-apache-sqli
+docker ps
+docker ps -a
+docker rm apache-webserver
+docker run -dit --name apache-webserver -p 8080:80 -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ php-apache-sqli
+docker ps
+docker exec -it /bin/bash
+docker exec -it apache-webserver  /bin/bash
+docker apache-webserver
+docker stop apache-webserver
+docker start apache-server
+docker exec -it apache-server /bin/bash
+cd /var/
+ls
+exit
+ls
+docker ps
+docker stop apache-server
+docker rm apache-webserver
+docker run -dit --name apache-webserver -p 8080:80 -v /var/:/var/ -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/ php-apache-sqli
+docker ps
+docker exec -it apache-webserver /bin/bash
+docker ps
+docker ps -a
+docker stop apache-webserver
+apache start apache-server
+docker start apache-server
+ls
+cd ..
+docker exec -it /bin/bash
+docker exec -it apache-server  /bin/bash
+docker stop apache-server
+docker start apache-webserver
+docker exec -it /bin/bash
+docker exec -it apache-webserver /bin/bash
+cd sky
+ls
+docker ps
+docker stop apache-webserver
+docker rm apache-webserver
+docker run -dit --name apache-webserver -p 8080:80 -v /var/:/var/ -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/html/usb php-apache-sqli
+docker ps
+docker stop apache-webserver
+docker start apache-server
+docker ps
+docker stop  apache-server
+docker rm apache-webserver
+docker run -dit --name apache-webserver -p 80:80 -v /var/:/var/ -v /home/sky/:/var/www/html/  -v /media/usb/:/var/www/html/usb php-apache-sqli
+docker ps
+ls
+sudo nano ServeVideos.php
+sudo nano searchResults.html'
+
+;
+exit
+docker ps
+ls
+sudo nano searchResults.html
+sudo nano watchVideos.html
+docker exec -it mysql mysql -u root -p
+docker ps
+ls
+sudo nano login.php
+sudo nano searchingVideos.php
+sudo nano login.php
+sudo nano searchingVideos.php
+sudo searchResults.html
+sudo nano searchResults.html
+sudo nano searchingVideos.php
+docker exec -it mysql mysql -u root -p
+sudo nano searchingVideos.php
+sudo nano searchResults.html
+ls
+cp searchResults.html searchResults.php
+sudo rm searchResults.html
+ls
+sudo nano Userpage.php
+sudo nano searchResults.php
+sudo nano Userpage.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano Userpage.php
+sudo nano searchResults.php
+sudo nano Userpage.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+ls
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+ls
+sudo nano searchingVideos.ph
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+ls
+sudo nano ServeVideos.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano ServeVideos.php
+sudo nano searchingVideos.php
+sudo nano ServeVideos.php
+sudo nano searchingVideos.php
+sudo nano ServeVideos.php
+sudo nano searchingVideos.php
+sudo nano ServeVideos.php
+docker exec -it apache-server /bin/bash
+docker ps
+docker exec -it apache-webserver /bin/bash
+sudo nano ServeVideos.php
+docker exec -it mysql mysql -u root -p
+sudo nano ServeVideos.php
+docker exec -it mysql mysql -u root -p
+docker exec -it apache-webserver /bin/bash
+sudo nano ServeVideos.php
+ls
+sudo nano searchingVideos.php
+sudo login.php
+sudo nano Userpage.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+ls
+sudo nano ServeVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+exit
+sudo nano searchingVideos.php
+exit
+ls
+cp watchVideos.html watchVideos.php
+ls
+sudo rm watchVideos.html
+ls
+sudo nano watchVideos.php
+sudo nano ServeVideos.php
+sudo nano watchVideos.php
+sudo nano searchingVideos.php
+sudo nano watchVideos.php
+sudo nano ServeVideos.php
+sudo nano watchVideos.php
+sudo nano ServeVideos.php
+sudo nano watchVideos.php
+exit
+ls
+sudo nansearchResults.php
+sudo nano searchResults.php
+ls
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+exit
+ls
+sus
+sudo nano Iserpage.php
+ls
+sudo nano searchingVideos.php
+exit
+ls
+sudo nano login.php
+exit
+ls
+sudo nano Userpage.php
+sudo nano searchingVideos.php
+exit
+ls
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano test.php
+sudo nano searchingVideos.php
+sudo nano test.php
+sudo nano searchingVideos.php
+exit
+ls
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano index.html
+sudo rm test.php
+sudo rm searchResults.php.save
+ls
+sudo nano Userpage.php
+sudo nano createUserError.html
+sudo nano homePageStyles.css
+sudo nano Video.html
+sudo rm Video.html
+ls
+sudo nano main.css
+sudo error.css
+sudo nano error.css
+sudo nano ServeVideos.php
+sudo nano login.php
+createUser.html
+sudo nano createUser.html
+sudo nano loginStyles.css
+sudo nano noResults.html
+sudo nano watchVideos.php
+sudo nano CreateUser.php
+sudo nano loginError.html
+sudo nano createUserStyles.css
+sudo nano login.html
+docker exec -it mysql mysql -u root -p
+describe Users;
+docker exec -it mysql mysql -u root -p
+exit
+ls
+sudo nanoServeVideos.php
+sudo nano ServeVideos.php
+sudo nano searchingResults.php
+sudo nano searchingVideos.php
+exit
+sudo nano searchingVideos.php
+exit
+ls
+sudo nano searchResults.php
+sudo nano watchVideos.php
+exit
+docker exec -it mysql /usr/bin/mysql -u root --password=password GroupTube
+clear
+ls
+exit
+ls
+docker ps
+docker run --name myadmin -d --link mysql:db -p 8080:80 phpmyadmin/phpmyadmin
+docker ps
+docker ps -a
+docker start myadmin
+docker ps
+docker start myadmin
+docker ps
+docker ps -a
+docker ps myadmin
+docker start myadmin
+docker run myadmin
+docker start myadmin
+docker exit
+exit
+ls
+sudo rm Clay1.mp4
+sudo rm error.css
+sudo rm main.css
+sudo rm ServeVideos.php
+sudo rm createUserError.html
+sudo rm createUser.html
+sudo rm homePageStyles.css
+ls
+sudo rm CreateUser.php
+sudo rm index.html
+sudo rm createUserStyles.css
+sudo rm loginError.html
+ls
+sudo rm noResults.html
+sudo rm login.php
+sudo rm Userpage.php
+sudo rm loginStyles.css
+sudo rm searchingVideos.php
+sudo rm watchVideos.php
+sudo rm searchResults.php
+sudo rm login.html
+ls
+docker ps
+docker it -exec apache-webserver /bin/bash
+docker it -exec apache-webserver /bin/bash/
+docker it -exec apache-webserver bin/bash/
+docker exec -it  apache-webserver /bin/bash/
+docker exec -it  apache-webserver /bin/bash
+docker exec -it mysql mysql -u root -p
+select * from Videos;
+docker exec -it mysql mysql -u root -p
+ls
+sudo nano watchVideos.php
+exit
+ls
+sudo nano searchingVideosUser.php
+sudo nano search.php
+sudo searchResults.php
+sudo nano searchResults.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano Userpage.php
+sudo cd /media/usb
+cd /media/usb
+ls
+exit
+docker ps
+ls
+cd ..
+ls
+cd sky
+docker ps
+docker commit 488137f6f1ad sky/testimage:version1
+docker images
+ls
+docker commit 488137f6f1ad copy-webserver
+docker images
+docker create copy-webserver
+docker ps
+docker ps -a
+docker rm angry_yalow
+docker rm boring_lewin
+docker rm myadmin
+docker ps -a
+docker ps
+docker rm apache-server
+docker ps
+docker ps -a
+docker rm apache-server2
+docker ps
+docker ps -a
+docker exec -it musing_heyrovsky /bin/bash
+docker start musing_heyrovsky
+docker exec -it musing_heyrovsky /bin/bash
+docker exec -it apache-webserver /bin/bash
+docker create -v /home/sky --name copy-webserver  copy-webserver 
+docker ps
+docker stop musing_heyrovsky
+docker rm  musing_heyrovsky
+docker ps
+docker ps -a
+docker start copy-webserver
+docker exec -it copy-webserver /bin/bash
+docker stop copy-webserver
+docker rm  copy-webserver
+docker create -m /home/sky --name copy-webserver  copy-webserver 
+docker create -mount /home/sky --name copy-webserver  copy-webserver 
+docker create --mount /home/sky --name copy-webserver  copy-webserver 
+docker create -v /home/sky/ --name copy-webserver  copy-webserver 
+docker start copy-webserver
+docker exec -it copy-webserver /bin/bash
+docker stop copy-webserver
+docker rm  copy-webserver
+docker create -v /home/sky:/var/www/html --name copy-webserver  copy-webserver 
+docker start copy-webserver
+docker exec -it copy-webserver /bin/bash
+exit
+docker ps
+sysbench --test=fileio --file-total-size=128MB prepare
+sysbench --test=fileio --file-total-size=128MB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=128MB cleanup
+docker ps
+docker exec -it mysql /bin/bash
+sysbench --test=fileio --file-total-size=256MB prepare
+sysbench --test=fileio --file-total-size=256MB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=256MB cleanup
+sysbench --test=fileio --file-total-size=512MB prepare
+sysbench --test=fileio --file-total-size=512MB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=512MB cleanup
+sysbench --test=fileio --file-total-size=1GB prepare
+sysbench --test=fileio --file-total-size=1GB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=1GB cleanup
+sysbench --test=fileio --file-total-size=2GB prepare
+sysbench --test=fileio --file-total-size=2GB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=2GB cleanup
+sysbench --test=fileio --file-total-size=4GB prepare
+sysbench --test=fileio --file-total-size=4GB --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+sysbench --test=fileio --file-total-size=4GB cleanup
+sysbench --num-threads=1 --test=cpu --cpu-max-prime=20000 run
+sysbench --num-threads=1 --test=cpu --cpu-max-prime=15000 run
+sysbench --num-threads=2 --test=cpu --cpu-max-prime=15000 run
+sysbench --num-threads=4 --test=cpu --cpu-max-prime=15000 run
+sysbench --num-threads=8 --test=cpu --cpu-max-prime=15000 run
+sysbench --num-threads=16 --test=cpu --cpu-max-prime=15000 run
+sysbench --num-threads=32 --test=cpu --cpu-max-prime=15000 run
+docker exec -it apache-server /bin/bash
+docker exec -it apache-webserver /bin/bash
+docker exec -it mysql /bin/bash
+exit
+docker ps
+docker exec -it mysql /bin/bash
+ls
+sudo nano searchingVideos.php
+docker exec -it mysql mysql -u root -p
+ls
+sudo nano searchingVideos.php
+exit
+ls
+sudo nano upload.php
+cd /media/usb
+cd /home/sky
+cd /media/usb/thumbnails
+cd /media/usb
+mkdir thumbnails
+sudo mkdir thumbnails
+ls
+cd /home/sky
+ls
+sudo nano upload.php
+cd /media/usb/thumbnail
+cd /media/usb/thumbnails
+cd /home/sky
+sudo nano upload.php
+ls
+sudo nano login.php
+sudo nano upload.php
+sudo nano uploadError.html
+sudo nano uploadStyles.css
+sudo nano uploadVideos.php
+ls
+sudo nanouserpageStyles.css
+sudo nano userpageStyles.css
+sudo nano login.php
+sudo nano Userpage.php
+sudo nano userpageStyles.css
+sudo nano upload.php
+exit
+ls
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+cd /var/lib/dpkg
+ls
+sudo nano statoverride
+docker exec -it apache-webserver /bin/bash
+ls
+sudo nano statoverride
+docker exec -it apache-webserver /bin/bash
+sudo nano statoverride
+docker exec -it apache-webserver /bin/bash
+sudo nano statoverride
+docker exec -it apache-webserver /bin/bash
+dpkg-statoverride --add sky
+sudo nano statoverride
+dpkg-statoverride --add sky
+ls
+sudo nano statoverride-old
+sudo nano statoverride
+sudo nano statoverride-old
+sudo nano statoverride
+sudo nano statoverride-old
+ls
+sudo cp statoverride-old statoverride
+ls
+sudo nano statoverride
+dpkg-statoverride --add sky
+dpkg-statoverride --remove /usr/bin/crontab
+sudo dpkg-statoverride --remove /usr/bin/crontab
+sudo nano statoverride
+sudo dpkg-statoverride --remove /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+ls
+sudo nano statoverride
+docker exec -it apache-webserver /bin/bash
+ls
+docker exec -it apache-webserver /bin/bash
+ls
+cd Documents
+ls
+cd ..
+sudo nano Dockerfile
+docker exec -it apache-webserver /bin/bash
+docker ps
+docker update apache-webserver
+docker ps
+docker images
+ls
+docker build
+docker build /home/sky/
+docker run opencoconut/ffmpeg -i http://files.coconut.co.s3.amazonaws.com/test.mp4 -f webm -c:v libvpx -c:a libvorbis - > test.webm
+docker run -v=`pwd`:/tmp/ffmpeg opencoconut/ffmpeg -i localfile.mp4 out.webm
+ls
+sudo nano Dockerfile
+docker build /home/sky/
+sudo nano Dockerfile
+sudo rm Dockerfile
+sudo nano Dockerfile
+docker images
+docker exec -it apache-webserver /bin/bash
+docker run php-apache-sqli bash -c "apt-get -y install libav-tools" 
+docker run php-apache-sqli bash -c apt-get install "libav-tools" 
+docker run php-apache-sqli bash -c "apt-get install libav-tools" 
+sudo-apt-get update
+sudo apt-get update
+docker run php-apache-sqli bash -c "apt-get install libav-tools" 
+apt-get install libav-tools
+Y
+sudo apt-get install libav-tools
+apt -fix-broken install
+apt --fix-broken install
+sudo apt --fix-broken install
+sudo apt-get update
+sudo apt-get libav-tools
+sudo apt-get install libav-tools
+docker exec -it apache-webserver /bin/bash
+sudo nano /var/lib/dpkg/status
+docker exec -it apache-webserver /bin/bash
+sudo dpkg --configure --pending
+sudo nano /var/lib/dpkg/status
+sudo dpkg --configure --pending
+sudo nano /var/lib/dpkg/status
+sudo dpkg -i --force-depends multiarch-support_2.13-38+rpi2_armhf.deb
+sudo nano /var/lib/dpkg/status
+sudo dpkg --configure --pending
+sudo dpkg -i --force-depends multiarch-support_2.13-38+rpi2_armhf.deb
+apt-get install multiarch-support
+sudo apt-getmultiarch-support
+sudo apt-get multiarch-support
+sudo apt-get install multiarch-support
+sudo dpkg -i --force-depends multiarch-support_2.13-38+rpi2_armhf.deb
+sudo dpkg --configure --pending
+apt-get install libav-tools
+sudo apt-get install libav-tools
+sudo nano /var/lib/dpkg/status
+ls
+sudo nano upload.php
+cd /media/usb
+ls
+cd thumbnails
+ls
+cd /home/sky
+ls
+sudo nano upload.php
+cd /media/usb
+ls
+cd /home/sky
+ls
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+cd /usr/local/etc/php
+docker exec -it apache-webserver /bin/bash
+ls
+sudo nano noResults.html
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+cd /var/www/
+ls
+cd ..
+ls
+cd usr
+ls
+cd local
+ls
+cd etc
+ls
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+cd /home/sky
+ls
+cd /usr/local/etc
+ls
+sudo nano php.ini
+sudo rm php.ini
+docker exec -it apache-webserver /bin/bash
+ls
+cd /home/sky
+ls
+sudo nano docker-php-ext-mysqli.ini
+docker exec -it apache-webserver /bin/bash
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+cd /var/www/html
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd var
+ls
+cd /usr
+ls
+cd local
+ls
+find /home/sky/ -name "php.ini"
+find /home/ -name "httpd.conf"
+sudo find /home/ -name "httpd.conf"
+find /home/ -name "httpd.conf"
+find /home/ -name "php.ini"
+docker exec -it apache-webserver /bin/bash
+cd /home/sky
+ls
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+ls
+sudo nano apache2.conf
+docker ps
+docker stop php-apache-sqli
+docker stop apache-webserver
+docker start apache-webserver
+docker exec -it apache-webserver /bin/bash
+ls
+cd apache2.conf
+sudo nano apache2.conf
+ls
+docker exec -it apache-webserver /bin/bash
+sudo nano apache2.conf
+docker exec -it apache-webserver /bin/bash
+sudo nano apache2.conf
+docker exec -it apache-webserver /bin/bash
+ls
+sudo nano apache.conf
+ls
+sudo nano apache2.conf
+ls
+docker exec -it apache-webserver /bin/bash
+sudo nano apache2.conf
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+ls
+sudo nano Dockerfile
+ls
+docker ps
+docker stop apache-webserver
+ls
+docker ps
+docker images
+docker create --link mysql --name apache-webserver -v /home/sky:/var/www/html php-apache-sqli
+docker rm apache-webserver
+docker create --link mysql --name apache-webserver -v /home/sky:/var/www/html php-apache-sqli
+docker ps
+docker rm apache-webserver
+docker create --link mysql --name apache-webserver -p 8080:80  -v /home/sky:/var/www/html php-apache-sqli
+docker ps
+docker start apache-webserver
+docker ps
+docker exec -it apache-webserver /bin/bash
+docker
+docker ps
+docker inspect apache-webserver
+docker ps
+docker run apache-webser --expose=80
+docker run apache-webserver --expose=80
+docker ps
+docker stop apache-webserver
+docker rm apache-webserver
+docker create --link mysql --name apache-webserver -p 8080:80  --expose=80 -v /home/sky:/var/www/html php-apache-sqli
+ip addr show
+sudo lsof -i -P -n
+docker run apache-webserver -p 8080:80
+docker ps
+docker start apache-webserver
+sudo lsof -i -P -n
+docker ps
+docker stop apache-webserver
+docker rm apache-webserver
+docker create --link mysql --name apache-webserver -p 80:80  --expose=80 -v /home/sky:/var/www/html php-apache-sqli
+docker ps
+docker start apache-webserver
+docker ps
+ls
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano docker-php-ext-mysqli.ini
+docker exec -it apache-webserver /bin/bash
+docker ps
+docker stop apache-webserver
+docker start apache-webserver
+docker restart apache-webserver
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart
+docker restart apache-webserver
+sudo nano php.ini
+sudo nano upload.php
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart
+docker restart apache-webserver
+sudo nano php.ini
+sudo nano rm php.ini
+ls
+sudo rm php.ini
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart apacher-webserver
+docker restart apache-webserver
+sudo nano upload.php
+sudo nano php.ini
+docker restart apache-webserver
+docker exec -it apache-webserver /bin/bash
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart
+docker restart apache-webserver
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart apache-webserver
+sudo nano upload.php
+docker restart apache-webserver
+sudo nano upload.php
+docker restart apache-webserver
+sudo nano upload.php
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+docker restart apache-webserver
+cd /media/usb
+ls
+cd thumbnails
+ls
+cd ..
+exit
+sudo nano upload.php
+sudo nano Userpage.php
+ls
+sudo nano uploadVideos.php
+sudo nano upload.php
+cd /media/usb
+ls
+cd /home/sky
+ls
+sudo nano php.ini
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+docker restart apache-webserver
+ls
+sudo nano upload.php
+sudo nano php.ini
+docker restart apache-webserver
+sudo nano upload.php
+sudo mount -o remount,rw '/media/usb'
+cd /media/usb
+cd ..
+ls
+cd /sky
+cd /media/usb
+ls
+cd /home/sky
+sudo hdparm -r0 /media/usb
+ls
+cp error.css /media/usb/
+cd /media
+cd /media/usb
+cd /home/sky
+sudo nano upload.php
+chown -R everyone /media/usb
+chown -R sky /media/usb
+sudo chown -R sky /media/usb
+sudo chmod 777 /media/usb
+ls
+cp index.php /media/usb/
+sudo chmod 777 /media/usb/
+cp index.php /media/usb/
+sudo chmod 777 /media
+cp index.php /media/usb/
+docker exec -it apache-webserver /bin/bash
+docker exec -it mysql mysql -u root -p
+docker ps
+docker stop apache-webserver
+docker rm apache-webserver
+docker create --expose 80 --link mysql --name apache-webserver -p 80:80 -v /home/sky:/var/www/html -v /media/usb:/var/www/html/videos
+docker create --expose 80 --link mysql --name apache-webserver -p 80:80 -v /home/sky:/var/www/html -v /media/usb:/var/www/html/videos php-apache-sqli
+docker ps
+docker start apache-webserver
+docker ps
+docker exec -it apache-webserver /bin/bash
+cd videos
+ls
+cd ..
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+exit
+ls
+sudo nano login.php
+docker exec -it mysql mysql -u root -p
+sudo nano login.php
+exit
+sudo nano login.php
+docker ps
+sudo nano login.php
+docker exec -it mysql mysql -u root -p
+sudo nano login.php
+sudo nano Admin.php
+sudo nano login.php
+ls
+sudo nano Admin.php
+sudo nano login.php
+docker exec -it mysql mysql -u root -p
+ls
+sudo nano CreateUser.php
+docker exec -it mysql mysql -u root -p
+sudo nano CreateUser.php
+sudo nano login.php
+ls
+sudo nano login.html
+sudo nano login.php
+sudo nano logout.php
+sudo nano login.php
+ls
+sudo nano CreateUser.php
+sudo nano watchVideos.php
+sudo nano searchingVideos.php
+sudo nano searchingVideosUser.php
+sudo nano upload.php
+sudo nano logout.php
+sudo nano uploadStyles.css
+sudo nano Admin.php
+sudo nano logout.php
+ls
+sudo nano searchResultsUser.php
+sudo nano Userpage.php
+sudo nano index.php
+sudo nano watchVideos.php
+sudo nano CreateUser.php
+sudo nano search.php
+sudo nano uploadVideos.php
+ls
+sudo nano searchResults.php
+sudo nano search.php
+sudo nano searchStyles.css
+sudo nano uploadStyles.css
+sudo nano searchStyles.css
+sudo nano createUserStyles.css
+sudo nano error.css
+sudo nano main.css
+sudo nano searchStyles.css
+sudo nano userpageStyles.css
+sudo nano watchVideosStyles.css
+sudo nano search.php
+sudo nano searchStyles.css
+sudo nano uploadStyles.css
+sudo nano searchStyles.css
+sudo nano searchingVideos.php
+sudo nano search.php
+sudo nano searchingVideosUser.php
+sudo nano Admin.php
+sudo nano upload.php
+sudo nano Admin.php
+ls
+cd videos
+ls
+cd ..
+docker exec -it apache-webserver /bin/bash
+ls
+sudo nano upload.php
+cd /usb
+cd usb
+ls
+cd ..
+cd videos
+ls
+cd ..
+docker exec -it apache-webserver /bin/bash
+sudo nano upload.php
+sudo nano php.ini
+docker exec -it apache-webserver /bin/bash
+sudo nano php.ini
+cd /tmp/php
+cd /tmp/php/
+docker exec -it apache-webserver /bin/bash
+sudo nano Admin.php
+ls
+sudo nano uploadStyles.css
+sudo nano adminStyles.css
+sudo nano uploadStyles.css
+sudo nano adminStyles.css
+sudo nano uploadStyles.css
+sudo nano adminStyles.css
+sudo nano Admin.php
+sudo nano adminStyles.css
+sudo nano Admin.php
+sudo nano adminStyles.css
+sudo nano Admin.php
+sudo nano adminStyles.css
+sudo nano Admin.php
+sudo nano adminStyles.css
+sudo nano Admin.php
+sudo nano adminStyles.css
+sudo nano Admin.php
+ls
+sudo nano login.php
+sudo nano searchResults.php
+sudo nano uploadVideos.php
+sudo nano searchResultsUser.php
+sudo nano ServeVideos.php
+sudo rm ServeVideos.php
+sudo rm Userpage.php
+sudo nano Userpage.php
+ls
+sudo nano logout.php
+sudo nano searchingVideos.php
+sudo nano searchingVideosUser.php
+sudo nano CreateUser.php
+sudo nano index.php
+sudo nano watchVideos.php
+sudo nano searchingVideos.php
+sudo nano searchResults.php
+sudo nano index.php
+sudo nano searchingVideos.php
+ls
+sudo nano Admin.php
+sudo nano Userpage.php
+sudo nano login.php
+sudo nano Admin.php
+sudo nano login.php
+sudo nano Admin.php
+sudo nano login.php
+sudo nano Admin.php
+ls
+sudo nano login.php
+sudo nano Admin.php
+docker exec -it mysql mysql -u root -p
+sudo nano Admin.php
+ls
+sudo nano searchResults.php
+sudo nano CreateUser.php
+sudo nano logout.php
+sudo nano CreateUser.php
+sudo nano logout.php
+sudo nano watchVideos.php
+sudo nano searchingVideos.php
+sudo nano login.php
+sudo nano CreateUser.php
+sudo nano logout.php
+sudo nano searchingVideos.php
+sudo nano searchingVideosUser.php
+sudo nano uploadVideos.php
+sudo nano upload.php
+sudo nano watchVideos.php
+sudo nano upload.php
+sudo nano watchVideos.php
+docker exec -it mysql mysql -u root -p
+ls
+sudo nano CreateUser.php
+sudo nano watchVideos.php
+sudo nano Admin.php
+sudo nano login.php
+sudo nano index.php
+sudo nano login.php
+sudo nano index.php
+sudo nano Admin.php
+sudo nano Userpage.php
+sudo nano watchVideos.php
+sudo nano searchResults.php
+sudo nano searchResultsUser.php
+sudo nano searchingVideos.php
+sudo nano uploadVideos.php
+sudo nano search.php
+sudo nano searchingVideos.php
+sudo nano search.php
+exit
+ls
+sudo nano Admin.php
+sudo nano login.php
+sudo nano searchingVideos.php
+sudo nano logout.php
+sudo nano searchingVideosUser.php
+sudo nano Admin.php
+sudo nano watchVideos.php
+exit
+sudo nano watchingVideos.php
+ls
+sudo nano watchVideos.php
+docker exec -it mysql mysql -u root -p
+sudo nano Userpage.php
+sudo nano logout.php
+sudo nano searchResultsUser.php
+sudo nano logout.php
+sudo nano searchResultsUser.php
+exit
+sudo nano watchVideos.php
+sudo nano login.php
+sudo nano watchVideos.php
+sudo nano logout.php
+sudo nano Userpage.ph
+sudo nano Userpage.php
+sudo nano searchingVideosUser.php
+sudo nano searchingVideoResults.php
+ls
+sudo nano searchResultsUser.php
+sudo nano searchingVideosUser.php
+sudo nano watchVideos.php
+docker exec -it apache-webserver /bin/bash
+exit
+clear
+git add *
+git push
+clear
 exit

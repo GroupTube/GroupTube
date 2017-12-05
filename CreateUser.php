@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 
 <?php
 
@@ -21,31 +25,42 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 $repassword = $_POST['repassword'];
 
+$passwordHash = password_hash($password, PASSWORD_DEFAULT);
+
+//Set session variable for later use
 $_SESSION["username"] = $username;
+
+//Increase visits to this page
+ $update = mysqli_query($conn, "UPDATE Counts SET createN = createN + 1;");
 
 //Check and see if someone already has that username
 $result = mysqli_query($conn, " SELECT * FROM Users  WHERE username = '$username';");
 
+$num_rows = $result->num_rows;
+
 //Make sure that password and username aren't blank, that password and reentered password are the same, and that no one has the same username
-if($password != "" && $username != "" &&  $password == $repassword && $result->num_row ==0)
+if($password != "" && $username != "" &&  $password == $repassword && $num_rows ==0)
 {
-		//Insert that user and their password into the database
-                $sql = "Insert INTO Users(username, password) VALUES ('$username', '$password');";
+				echo "true";
+                //Insert that user and their password into the database
+                $sql = "Insert INTO Users(username, password, Admin) VALUES ('$username', '$passwordHash', 'No');";
 }
-//If the user is added successfully, print a message
+
+//If the user is added successfully, display their page
 if ($sql != "" && $conn->query($sql) === TRUE)
 {
-	include("CreateUser.php");
+	header("Location:Userpage.php");
+        exit;
 }
-//If the user isn't added successfully, print a message
+
+//If the user isn't added successfully, display an error message
 else
 {
-include("createUserError.html");
+	header("Location:createUserError.html");
+	exit;
 }
 
 
 
 
 ?>
-
-

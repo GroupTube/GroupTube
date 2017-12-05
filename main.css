@@ -1,26 +1,26 @@
 body {
-	margin:0;
+        margin:0;
     padding:0;
     background-color: #8491a3;
 }
 
 #icon{
-	width:40px;
-	height:40px;
-	border:3px solid #87d68d;
-	position: relative;
-	z-index:-1;
-	
+        width:40px;
+        height:40px;
+        border:3px solid #87d68d;
+        position: relative;
+        z-index:-1;
+
 }
 
 .resultsDisplay p {
-	border:2px solid black;
-	background: yellow;
+        border:2px solid black;
+        background: yellow;
 }
 
 #searchResult{
-	position: fixed;
-	bottom: 275px; /* Place the button at the bottom of the page */
+        position: fixed;
+        bottom: 275px; /* Place the button at the bottom of the page */
     right: 540px; /* Place the button 30px from the right */
     background-color: #3e8e41;
     font-size: 20px;
@@ -38,19 +38,18 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
 #top-right {float: right; }
 #top-left {float: left;}
 
 
 div.container {
-	position: sticky;
+        position: sticky;
 }
 
 #thumbnail{
-	width:160px;
-	height:100px;
-	border: 2px solid #87d68d;
+        width:160px;
+        height:100px;
+        border: 2px solid #87d68d;
 }
 
 /* Add a black background color to the top navigation */
@@ -81,5 +80,3 @@ div.container {
     background-color: #4CAF50;
     color: white;
 }
-
-

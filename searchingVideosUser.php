@@ -4,14 +4,15 @@ session_start();
 ?>
 
 
-<html>
 <?php
 
         //Variables
         $userName = "root";
         $password = "password";
         $databaseName ="GroupTube";
-        $keyPhrase = $_POST['search'];
+        
+		$keyPhrase = $_POST['search'];
+		$username = $_SESSION['username'];
 
 
         //create connection
@@ -24,12 +25,13 @@ session_start();
                 echo    "Connection failed: " . mysqli_connect_errno();
 
         }
-	//Increase visits to this page
-	 $update = mysqli_query($conn, "UPDATE Counts SET search  = search  + 1;");
-
-
-		//database items
-	        $result = mysqli_query($conn, " SELECT vidId, vidTitle, username, vidThumb FROM Videos WHERE vidTitle='$keyPhrase';");
+	//Increase the count of searches
+	$update = mysqli_query($conn, "UPDATE Counts SET search  = search  + 1;");
+       	
+	if($username != "")
+	{
+	 //database items
+        $result = mysqli_query($conn, " SELECT vidId, vidTitle, username, vidThumb FROM Videos WHERE vidTitle='$keyPhrase' AND username = '$username';");
         //get the data on the videos based on the search term(search term is very strict for the moment and only exact matches will be shown)
         if ($result->num_rows > 0)
         {
@@ -43,22 +45,24 @@ session_start();
 						}
 						
                                 //Set the session variable for later use
-					$_SESSION["vids"] = $new_array;
-				//Take them to the search results page if there are results	
-					include("searchResults.php");
+								$_SESSION["vids"] = $new_array;
+				//Take to the search result page
+				header("Location:searchResultsUser.php");
+				
         }
 
-	//Take to no results page if there are none
         else
-        {
-
+        {	//If no results display the no results html
 		header("Location:noResults.html");
-		exit;
+		
 
         }
 
 
         mysqli_close($conn);
+	}
+	else
+		//Display no results html if there are no results
+		header("Location:noResults.html");
 
 ?>
-</html>
